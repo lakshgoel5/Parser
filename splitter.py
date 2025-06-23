@@ -95,8 +95,8 @@ def parse_and_split_binary_data(input_file, output_dir="output_bytes", output_fo
 
 def main():
     # Configuration
-    input_filename = "input_data.txt"  # Change this to your input file name
-    output_directory = "split_bytes"   # Change this to your desired output directory
+    input_filename = "b881_packets.txt"  # Change this to your input file name
+    output_directory = "split_bytesb881"   # Change this to your desired output directory
     
     # Choose output format: "binary" or "integer"
     output_format = "integer"  # Change to "binary" for .bin files
