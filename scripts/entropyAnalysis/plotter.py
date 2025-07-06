@@ -513,7 +513,7 @@ if __name__ == "__main__":
     
     # Read actual data from the specified file
     print("Reading data from file...")
-    data_path = r"C:\Users\laksh\OneDrive - IIT Delhi\Desktop\SURA\Parser\data\25 July 525p\output.txt"
+    data_path = r"C:\Users\laksh\OneDrive - IIT Delhi\Desktop\SURA\Parser\data\2 July\data_july2_30_50_outContainer\data_july2_30_50\separated_body.txt"
     file_data = read_data_from_file(data_path)
     
     if not file_data:
