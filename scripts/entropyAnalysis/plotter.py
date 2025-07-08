@@ -513,9 +513,9 @@ if __name__ == "__main__":
     
     # Read actual data from the specified file
     print("Reading data from file...")
-    data_path = r"C:\Users\laksh\OneDrive - IIT Delhi\Desktop\SURA\Parser\data\2 July\data_july2_30_50_outContainer\data_july2_30_50\separated_body.txt"
+    data_path = r"/home/shreyasi_choudhary/Parser/data/data_july_7_0_30_60/separated_body.txt"
     file_data = read_data_from_file(data_path)
-    
+
     if not file_data:
         print(f"Error: Could not read data from {data_path}")
         exit(1)
